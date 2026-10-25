@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "message": "Lấy danh sách khóa học thành công",
+  "data": {
+    "content": [
+      {
+        "id": 2,
+        "title": "Alpha",
+        "status": "ACTIVE",
+        "instructorId": 1
+      },
+      {
+        "id": 3,
+        "title": "Beta",
+        "status": "ACTIVE",
+        "instructorId": 1
+      }
+    ],
+    "empty": false,
+    "first": true,
+    "last": false,
+    "number": 0,
+    "numberOfElements": 2,
+    "pageable": {
+      "offset": 0,
+      "pageNumber": 0,
+      "pageSize": 2,
+      "paged": true,
+      "sort": {
+        "empty": false,
+        "sorted": true,
+        "unsorted": false
+      },
+      "unpaged": false
+    },
+    "size": 2,
+    "sort": {
+      "empty": false,
+      "sorted": true,
+      "unsorted": false
+    },
+    "totalElements": 3,
+    "totalPages": 2
+  }
+}
